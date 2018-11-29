@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #2d3436;
+      background: url('bg-home.png') repeat;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 120px;
+      font-size: 2.5rem;
+    }
+
+    .contact {
+      margin-top: 30px;
+      font-size: 1.2rem;
+    }
+
+    .contact a:link,
+    .contact a:visited {
+      color: #2d3436;
+      text-decoration: none;
+      transition: color 0.5s;
+    }
+
+    .contact a:hover,
+    .contact a:active {
+      color: #546164;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="http://via.placeholder.com/500x320" alt="">
+    <div>12/15/2018 試營運</div>
+    <div>網站建置中</div>
+    <div class="contact">
+      <p class="item">
+        <i class="material-icons">
+          place
+        </i>高雄市鼓山區文信路311號</p>
+      <p>
+        <a class="item" href="tel:555-555-1591">
+          <i class="material-icons">
+            local_phone
+          </i>07-555-1591</a>
+      </p>
+      <p>
+        <a class="item" href="https://goo.gl/maps/hUnVAW9wzAz">
+          <i class="material-icons">
+            map
+          </i>地圖連結</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
