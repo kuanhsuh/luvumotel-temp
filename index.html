@@ -35,7 +35,7 @@
       font-size: 1.2rem;
     }
 
-    .contact a:link,
+    /* .contact a:link,
     .contact a:visited {
       color: #2d3436;
       text-decoration: none;
@@ -45,11 +45,10 @@
     .contact a:hover,
     .contact a:active {
       color: #546164;
-    }
+    } */
 
     .item {
       display: flex;
-      align-items: center;
       justify-content: center;
       margin-bottom: 10px;
     }
@@ -57,6 +56,27 @@
     img {
       max-width: 500px;
       height: auto;
+    }
+
+    .btn:link,
+    .btn:visited {
+      padding: 8px 16px;
+      background: #2c3e50;
+      color: #fff;
+      width: 200px;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .mb-sm {
+      margin-bottom: 30px;
+    }
+
+    .icon {
+      vertical-align: middle;
+      margin-bottom: 4px;
+      margin-right: 8px;
     }
 
     @media only screen and (max-width: 600px) {
@@ -83,20 +103,23 @@
     <div>網站建置中</div>
     <div class="contact">
       <p class="item">
-        <i class="material-icons">
+        <i class="material-icons ">
           place
         </i>高雄市鼓山區文信路311號</p>
-      <p>
-        <a class="item" href="tel:555-555-1591">
-          <i class="material-icons">
-            local_phone
-          </i>07-555-1591</a>
+      <p class="mb-sm">
+        <i class="material-icons ">
+          local_phone
+        </i>07-555-1591
       </p>
       <p>
-        <a class="item" href="https://goo.gl/maps/hUnVAW9wzAz">
-          <i class="material-icons">
+        <a class="btn" href="https://goo.gl/maps/hUnVAW9wzAz" target="_blank">
+          <i class="material-icons icon">
             map
           </i>地圖連結</a>
+        <a class="btn" href="tel:07-555-1591">
+          <i class="material-icons icon">
+            local_phone
+          </i>訂房專線</a>
       </p>
     </div>
   </div>
